@@ -1,0 +1,47 @@
+.title-div {
+    background-color: #e3f2fd;
+    color: #64b5f6;
+    font-family: sans-serif;
+    padding: 1px;
+}
+
+.center-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.slider {
+    height: 25px;
+    border-radius: 6px;
+    outline: none;
+    margin-left: 260px;
+    width: 4%;
+}
+
+.slider input {
+    position: fixed;
+    left: 99px;
+    width: 27%;
+}
+
+.size {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #eeeeee;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.vranger {
+    margin-top: 50px;
+    transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    min-height: 40%;
+
+}
+
+.text-pixel {
+    margin-left: 250px;
+}
