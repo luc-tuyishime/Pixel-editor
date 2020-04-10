@@ -6,8 +6,4 @@ slider.style.background = `linear-gradient(to top ${colors.reduce(
             ''
 )})`;
 
-slider.style.height = '55vh';
-
 input.addEventListener('change', getRGBValues);
-
-input.style.position = 'fixed';
