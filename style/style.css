@@ -16,12 +16,7 @@
     outline: none;
     margin-left: 260px;
     width: 4%;
-}
-
-.slider input {
-    position: fixed;
-    left: 99px;
-    width: 27%;
+    float: left;
 }
 
 .size {
@@ -44,4 +39,31 @@
 
 .text-pixel {
     margin-left: 250px;
+}
+
+.grid-container {
+    margin-right: 20%;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(179, 176, 176);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6rem;
 }
